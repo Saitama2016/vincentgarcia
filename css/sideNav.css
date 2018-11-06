@@ -12,26 +12,36 @@
 }
 
 #sideNav a {
-    padding: 12px 12px 12px 32px;
+    padding: 12px 12px 12px 12px;
     width: 60%;
     text-decoration: none;
     font-size: 1.3em;
     display: block;
     transition: 0.3s;
+    text-align: center;
+}
+
+.closebtn {
+    -webkit-color: #fff;
+    -moz-color: #fff;
+    -ms-color: #fff;
+    -o-color: #fff;
+    color: #fff;
 }
 
 #sideNav .closebtn {
+    display: flex;
+    justify-content: center;
     top: 0;
-    right: 25px;
     font-size: 1.2em;
-    margin-left: 110px;
+    margin-left: 90px;
     padding-top: 15px;
 }
 
 
 @media (min-width: 501px) {
     #sideNav {
-        display: none;
+        visibility: hidden;
     }
 }
 
@@ -62,13 +72,18 @@
 
 @media (min-width: 375px) and (max-width: 400px) and (min-height: 800px) {
     #sideNav a {
-        padding: 25px 18px 25px 32px;
+        padding: 24px 24px 24px 0px;
         width: 75%;
         font-size: 1.9em;
     }
 
     #sideNav .closebtn {
         font-size: 1.7em;
+        -webkit-margin-left: 110px;
+        -moz-margin-left: 110px;
+        -ms-margin-left: 110px;
+        -o-margin-left: 110px;
+        margin-left: 110px;
     }
 }
 

@@ -1,0 +1,57 @@
+.fa-linkedin:hover, .fa-github:hover, 
+.fa-twitter-square:hover, .fa-file-pdf:hover,
+.fa-envelope:hover {
+    animation: bounce 1s;
+}
+
+#linkedinLink:focus {
+    -webkit-color: #0077B5;
+    -moz-color: #0077B5;
+    -ms-color: #0077B5;
+    -o-color: #0077B5;
+    color: #0077B5;
+}
+
+#gitHubLink:focus {
+    -webkit-color: #6e5494;
+    -moz-color: #6e5494;
+    -ms-color: #6e5494;
+    -o-color: #6e5494;
+    color: #6e5494;
+}
+
+#twitterLink:focus {
+    -webkit-color: #00acee;
+    -moz-color: #00acee;
+    -ms-color: #00acee;
+    -o-color: #00acee;
+    color: #00acee;
+}
+
+#resumeLink:focus {
+    -webkit-color: #ff0000;
+    -moz-color: #ff0000;
+    -ms-color: #ff0000;
+    -o-color: #ff0000;
+    color: #ff0000;
+}
+
+#emailLink:focus {
+    -webkit-color: #db3236;
+    -moz-color: #db3236;
+    -ms-color: #db3236;
+    -o-color: #db3236;
+    color: #db3236;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+}

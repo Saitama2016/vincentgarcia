@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/sideNav.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/animation.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/mediaQueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
     <script
@@ -20,38 +23,52 @@
     <header>
         <span id='sideNavButton'><i class="fas fa-bars"></i></span>
         <nav class="topNav">
-            <a href="#Intro" class="navItem">Intro</a>
+            <a href="#Contact" class="navItem">Contact</a>
             <a href="#About" class="navItem">About</a>
             <a href="#Projects" class="navItem">Projects</a>
-            <a href="#Endorsements" class="navItem">Endorsements</a>
+            <a href="#Referrals" class="navItem">Referrals</a>
       </nav>
       <nav id="sideNav">
-          <a href="#Intro">Intro</a>
+          <a href="javascript:void(0)" class="closebtn"><i class="far fa-window-close fa-2x"></i></a>
+          <a href="#Contact">Contact</a>
           <a href="#About">About</a>
           <a href="#Projects">Projects</a>
-          <a href="#Endorsements">Endorsements</a>
+          <a href="#Referrals">Referrals</a>
       </nav>
     </header>
     <main>
-        <div id="Intro" className="Intro">
-        <h2>Hello, I am Vincent Garcia</h2>
-        <p>This is where I talk a little bit about myself</p>
+        <div id="Contact" className="Contact">
+        <h2>Hello, my name is Vincent Garcia</h2>
+        <p class="hook">I am a Full-Stack Developer! Feel free to follow me on any 
+            of these platforms or contact me!
+        </p>
+        <div class="linkedList">
+            <a id="linkedinLink" class="listItem" href="https://www.linkedin.com/in/vincent-garcia-0625/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            <a id="gitHubLink" class="listItem" href="https://github.com/Saitama2016" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+            <a id="twitterLink" class="listItem" href="https://twitter.com/HonestGraduate" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+            <a id="resumeLink" class="listItem" href="assets/vincentJGarciaResume.pdf" target="_blank"><i class="fas fa-file-pdf fa-3x"></i></a>
+            <a id="emailLink" class="listItem" href="mailto:garciajvincent@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+        </div>
         </div>
         <div id="About" className="About">
-        <h2>About</h2>
-        <p>This is where I talk a little bit about myself</p>
+        <h2 class="headline">About</h2>
+        <img />
+        <p class="description">I have a passion for designing visually appealing, accessible web applications. I strive to be a versatile developer 
+            by taking on the <b>#100DaysofCode</b> Twitter challenge to improve my understanding of client-side and server-side development. When I am not behind the computer screen, I am applying the Bulldog Mindset
+            by going to tech-related networking events, working out at my best friend's garage, and hiking the valleys.
+        </p>
         </div>
         <div id="Projects" className="Projects">
-        <h2>Projects</h2>
+        <h2 class="headline">Projects</h2>
         <div>List Projects:
-          <p>BeTeancious Project</p>
+          <p>BeTenacious Project</p>
           <p>Captains Log Project</p>
           <p>HexClothes Project</p>
           <p>Hulu Project [Slideshow]</p>
         </div>
         </div>
-        <div id="Endorsements" className="Projects">
-        <h2>Referrals</h2>
+        <div id="Referrals" className="Projects">
+        <h2 class="headline">Referrals</h2>
         <div>List Referrals:
           <p>Michael's referral</p>
         </div>

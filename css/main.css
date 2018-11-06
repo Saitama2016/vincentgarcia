@@ -27,10 +27,15 @@ header {
     cursor: pointer;
 }
 
+
+#gitHubLink, #twitterLink, #linkedinLink, #resumeLink, #emailLink {
+    color: #000;
+}
+
 .fa-bars {
-    left: 0;
+    right: 0;
     font-size: 1.5rem;
-    padding-left: 1.2rem;
+    padding-right: 1rem;
 }
 
 .topNav {
@@ -38,6 +43,10 @@ header {
     display: flex;
     flex: 1 1;
     justify-content: flex-end;
+}
+
+.headline {
+    text-decoration: underline;
 }
 
 .navItem {
@@ -52,9 +61,18 @@ main {
     text-align: center;
 }
 
-#Intro, #About, #Projects, #Endorsements {
+#Contact, #About, #Projects, #Referrals {
   padding-top: 10rem;
   padding-bottom: 10rem; 
+}
+
+.linkedList {
+    margin-top: 3rem;
+}
+
+.listItem {
+    padding: .25rem 0;
+    margin: 0 .5rem;
 }
 
 h2 {
