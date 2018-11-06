@@ -37,40 +37,109 @@
       </nav>
     </header>
     <main>
-        <div id="Contact" className="Contact">
-        <h2>Hello, my name is Vincent Garcia</h2>
-        <p class="hook">I am a Full-Stack Developer! Feel free to follow me on any 
-            of these platforms or contact me!
-        </p>
-        <div class="linkedList">
-            <a id="linkedinLink" class="listItem" href="https://www.linkedin.com/in/vincent-garcia-0625/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a id="gitHubLink" class="listItem" href="https://github.com/Saitama2016" target="_blank"><i class="fab fa-github fa-3x"></i></a>
-            <a id="twitterLink" class="listItem" href="https://twitter.com/HonestGraduate" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
-            <a id="resumeLink" class="listItem" href="assets/vincentJGarciaResume.pdf" target="_blank"><i class="fas fa-file-pdf fa-3x"></i></a>
-            <a id="emailLink" class="listItem" href="mailto:garciajvincent@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+        <div id="Contact">
+            <h2>Hello, my name is Vincent Garcia!</h2>
+            <p class="hook">
+                Feel free to follow me on any 
+                of these platforms or contact me!
+            </p>
+            <div class="linkedList">
+                <a id="linkedinLink" class="listItem" href="https://www.linkedin.com/in/vincent-garcia-0625/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                <a id="gitHubLink" class="listItem" href="https://github.com/Saitama2016" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                <a id="twitterLink" class="listItem" href="https://twitter.com/HonestGraduate" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+                <a id="resumeLink" class="listItem" href="assets/vincentJGarciaResume.pdf" target="_blank"><i class="fas fa-file-pdf fa-3x"></i></a>
+                <a id="emailLink" class="listItem" href="mailto:garciajvincent@gmail.com"><i class="fas fa-envelope fa-3x"></i></a>
+            </div>
         </div>
-        </div>
-        <div id="About" className="About">
+
+        <div id="About">
         <h2 class="headline">About</h2>
-        <img />
-        <p class="description">I have a passion for designing visually appealing, accessible web applications. I strive to be a versatile developer 
+        <img class="profilePic" src="assets/Blue-tie-Blue-shirt.jpg" alt="Vincent Garcia's Headshot" />
+        <p class="description">I am a Full-Stack Developer with a focus on the MERN stack!
+            I have a passion for designing visually appealing, accessible web applications. I strive to be a versatile developer 
             by taking on the <b>#100DaysofCode</b> Twitter challenge to improve my understanding of client-side and server-side development. When I am not behind the computer screen, I am applying the Bulldog Mindset
-            by going to tech-related networking events, working out at my best friend's garage, and hiking the valleys.
+            by going to tech-related networking events, 
+            working out at my best friend's garage, and hiking across the valleys.
+            I am open to learn any programming languages and technologies to get the job done!
         </p>
         </div>
-        <div id="Projects" className="Projects">
+        
+        <div id="Projects">
         <h2 class="headline">Projects</h2>
-        <div>List Projects:
-          <p>BeTenacious Project</p>
-          <p>Captains Log Project</p>
-          <p>HexClothes Project</p>
-          <p>Hulu Project [Slideshow]</p>
+        <div class="projectsList">
+          <div class="hexClothes Container">
+            <h3>HexClothes (in Production)</h3>
+            <img class="landingPage" src="assets/HexClothesLandingPage.jpg" alt="Wardrobe Model of HexClothes App"/>
+            <p class="descApp"><b>HexClothes is a React Full-Stack app to allow users to experiment with color clothing by selecting an array of skin tones.</b></p>
+            <p class="listofTech"><b class="break">Created with:</b> React, Redux, Node.js, Express.js, MongoDB, 
+                Mongoose, mLab, JWT, Bcrypt, Passport, CSS, JSX</p>
+            <a class="linkToGitHub" href="https://github.com/Saitama2016/hex-clothes" target="_blank">GitHub-Client</a>
+            <a class="linkToGitHub" href="https://github.com/Saitama2016/hex-clothes-api" target="_blank">GitHub-Server</a>
+          </div>
+
+          <div class="captainsLog Container">
+            <h3>Captains Log</h3>
+            <img class="landingPage" src="assets/CaptainsLogLandingPage.jpg" alt="Landing Page of Captains Log App"/>
+            <p class="descApp"><b>Captains Log Node Full-Stack app to allow users to journal events in their vacations.</b></p>
+            <p class="listofTech"><b class="break">Created with:</b> Node.js, Express.js, MongoDB, 
+                Mongoose, mLab, Mocha, JWT, TravisCI, Bcrypt, Passport, CSS, HTML, Heroku</p>
+            <a class="linkToGitHub" href="https://github.com/Saitama2016/captainsLog" target="_blank">GitHub</a>
+            <a class="linkToDemo" href="https://captains-log-2018.herokuapp.com/" target="_blank">Demo</a>
+          </div>
+          
+          <div class="BeTenacious Container">
+            <h3>BeTenacious</h3>
+            <img class="landingPage" src="assets/BeTenaciousLandingPage.jpg" alt="Landing Page of BeTenacious App" />
+            <p class="descApp"><b>BeTenacious is an interchangeable app where users maintain Fitness and Nutrition goals by researching workout tutorials, fitness groups, restaurants, and recipes.</b></p>
+            <p class="listofTech"><b class="break">Created with:</b> AJAX, jQuery, a11y, CSS, HTML, Wger Workout API, YouTube Video Search,
+             Meetup API, Zomato Restaurant API</p>
+            <a class="linkToGitHub" href="https://github.com/Saitama2016/BeTenacious" target="_blank">GitHub</a>
+            <a class="linkToDemo" href="https://saitama2016.github.io/BeTenacious/" target="_blank">Demo</a>
+          </div>
+          
+            <div class="Container">
+                <h3>Hulu Christmas Party UI Redesign</h3>
+                <p class="descApp"><b>Updated the UI for the 2018 Hulu Christmas Party using Material-UI 
+                    to meet the color pallette and font styles of Hulu. 
+                    The Front-end design was a collaboration between NeighborNosh and Hulu.</b></p>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+                <div class="huluSlideshow">
+                    <div class="huluSlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img class="huluPic" src="assets/NewFontCategoryPage.PNG" alt="Category Page for Hulu Xmas Party UI">
+                        <p class="caption">Category Page updated to provide padding for available items, margins and bold font for App Bar, 
+                            and Font Style changes based on Hulu style. 
+                             </p>
+                    </div>
+
+                    <div class="huluSlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img class="huluPic" src="assets/NewFontCheckoutPage.PNG" alt="Checkout Page for Hulu Xmas Party UI">
+                        <p class="caption"> Checkout Page updated to include bold font action buttons, padding and font style changes for selected products.</p>
+                    </div>
+
+                    <div class="huluSlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img class="huluPic" src="assets/HuluThankYouPage.PNG" alt="Thank You Page for Hulu Xmas Party UI">
+                        <p class="caption">Vending Page updated to include bold font App Bar and checkout video provided by Hulu.</p>
+                    </div>
+                </div>
+                </div>
         </div>
         </div>
-        <div id="Referrals" className="Projects">
+
+        <div id="Referrals">
         <h2 class="headline">Referrals</h2>
-        <div>List Referrals:
-          <p>Michael's referral</p>
+        <div class="listOfRefs">
+          <p class="referral">"Vincent is a great asset! Fast-learner, reliable, and eager to learn!"
+              <span><em>- Michael Rosenthal, Founder/CEO at NeighborNosh Inc.</em></span>
+          </p>
+          <p class="referral">"Vincent was a student in my class... he was a hard worker, very creative, very punctual, and quite thoughtful in his contributions to class. If his dedication to the course material and classwork are any 
+              indication as to the effort he'd put in for a job, 
+              you're in very good hands selecting him."
+              <span><em>- Kate Pletcher, Founder/CEO at Treehouse Partners</em></span>
+            </p>
         </div>
         </div>
     </main>
