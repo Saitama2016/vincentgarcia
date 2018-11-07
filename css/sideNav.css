@@ -15,7 +15,7 @@
     padding: 12px 12px 12px 12px;
     width: 60%;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 1.6rem;
     display: block;
     transition: 0.3s;
     text-align: center;
@@ -27,16 +27,20 @@
     -ms-color: #fff;
     -o-color: #fff;
     color: #fff;
+    justify-content: flex-end;
 }
 
 #sideNav .closebtn {
     display: flex;
-    justify-content: center;
     top: 0;
     font-size: 1.2em;
-    margin-left: 90px;
     padding-top: 15px;
 }
+
+#sideNav {
+    justify-content: flex-end;
+}
+
 
 
 @media (min-width: 501px) {
@@ -45,11 +49,17 @@
     }
 }
 
+@media (max-width: 350px) {
+    .closebtn {
+        width: 55% !important;
+    }
+}
+
 
 @media (min-width: 360px) and (max-width: 400px) and (max-height: 650px) {
 #sideNav a {
     padding: 18px 18px 18px 32px;
-    width: 70%;
+    width: 60%;
     font-size: 1.6em;
 }
 
@@ -61,8 +71,7 @@
 @media (min-width: 375px) and (max-width: 400px) and (max-height: 800px) {
     #sideNav a {
         padding: 18px 18px 18px 32px;
-        width: 75%;
-        font-size: 1.7em;
+        width: 65%;
     }
 
     #sideNav .closebtn {
@@ -74,16 +83,12 @@
     #sideNav a {
         padding: 24px 24px 24px 0px;
         width: 75%;
-        font-size: 1.9em;
+        font-size: 2em;
     }
 
     #sideNav .closebtn {
-        font-size: 1.7em;
-        -webkit-margin-left: 110px;
-        -moz-margin-left: 110px;
-        -ms-margin-left: 110px;
-        -o-margin-left: 110px;
-        margin-left: 110px;
+        font-size: 1.7rem;
+        width: 70%;
     }
 }
 
@@ -96,19 +101,17 @@
 
     #sideNav .closebtn {
         font-size: 1.5em;
-        margin-left: 125px;
     }
 }
 
 @media (min-width: 400px) and (max-height: 900px) {
     #sideNav a {
-        padding: 25px 18px 25px 32px;
+        padding: 10px 18px 25px 32px;
         font-size: 2em;
-        width: 80%;
+        width: 70%;
     }
 
     #sideNav .closebtn {
         font-size: 1.7em;
-        margin-left: 125px;
     }
 }
