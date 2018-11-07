@@ -114,11 +114,11 @@ a {
 }
 
 .Container {
-    -webkit-background-color: rgb(216, 237, 229);
-    -moz-background-color: rgb(216, 237, 229);
-    -ms-background-color: rgb(216, 237, 229);
-    -o-background-color: rgb(216, 237, 229);
-    background-color: rgb(216, 237, 229);
+    -webkit-background-color: rgb(255, 255, 255);
+    -moz-background-color: rgb(255, 255, 255);
+    -ms-background-color: rgb(255, 255, 255);
+    -o-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px 5px;
     border-radius: 10%;
     padding-top: 5px;
@@ -136,6 +136,8 @@ a {
 
 .listofTech {
     font-weight: 600;
+    width: 50%;
+    margin: 20px auto;
 }
 
 .break {
@@ -199,4 +201,9 @@ a {
     padding: 8px 12px;
     text-align: center;
     margin: 10px auto;
+}
+
+.hook {
+    font-weight: 600;
+    font-size: 1rem;
 }

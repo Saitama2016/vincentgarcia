@@ -35,12 +35,8 @@
         display: inline-block;
     }
 
-    .profilePic {
-        margin-right: 50px;
-    }
-
     .description {
-        width: 40%;
+        width: 50%;
         text-align: center;
         justify-content: flex-end;
         display: inline-block;
