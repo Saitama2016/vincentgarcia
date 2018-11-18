@@ -20,6 +20,11 @@
 
     .Container {
         box-shadow: 1px 1px 2.5px 2.5px;
+        -webkit-width: 90%;
+        -moz-width: 90%;
+        -ms-width: 90%;
+        -o-width: 90%;
+        width: 90%;
     }
 }
 
