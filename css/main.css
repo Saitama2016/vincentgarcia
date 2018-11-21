@@ -87,7 +87,6 @@ main {
 .profilePic {
     display: inline-block;
     border-radius: 50%;
-    border: 3px solid #000000;
 }
 
 h2, h3, em {
