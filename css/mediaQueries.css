@@ -26,6 +26,9 @@
         -o-width: 90%;
         width: 90%;
     }
+    .listOfTech {
+        width: 100%;
+    }
 }
 
 @media (min-width: 501px) {
