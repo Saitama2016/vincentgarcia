@@ -99,16 +99,19 @@ h3 {
 }
 
 em {
+    margin: 10px;
     display: block;
     font-weight: 600;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: white
 }
 
@@ -124,7 +127,7 @@ a {
     -o-width: 60%;
     width: 60%;
     box-shadow: 2px 2px 5px 5px;
-    border-radius: 10%;
+    border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -137,8 +140,11 @@ a {
 }
 
 .landingPage {
-    height: 60%;
-    width: 30%;
+    height: 25rem;
+    width: 12rem;
+    display: flex;
+    flex: 1;
+    margin: auto;
 }
 
 .listofTech {
@@ -152,26 +158,27 @@ a {
 }
 
 .linkToGitHub, .linkToDemo {
-    -webkit-background-color: ghostwhite;
-    -moz-background-color: ghostwhite;
-    -ms-background-color: ghostwhite;
-    -o-background-color: ghostwhite;
-    background-color: ghostwhite;
-    border-radius: 10%;
+    -webkit-background-color: #f8f8ff;
+    -moz-background-color: #f8f8ff;
+    -ms-background-color: #f8f8ff;
+    -o-background-color: #f8f8ff;
+    background-color: #f8f8ff;
+    border-radius: 10px;
+    border: #000;
     color: black;
     text-decoration: none;
     font-weight: 600;
-    box-shadow: 1px 1px 1px 1px #705680;
-    padding: .1rem;
-    margin: 0 .5rem;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #6e2f96;
+    padding: .6rem;
+    margin: 0 .7rem;
 }
 
-.huluPic {
+.Pic {
     width: 80%;
     margin-top: 15px;
 }
 
-.huluSlides {
+.Slides {
     display: none;
 }
 
