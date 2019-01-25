@@ -1,6 +1,6 @@
 @media (max-width: 400px) {
     .fa-linkedin, .fa-github, 
-    .fa-twitter-square, .fa-file-pdf, 
+    .fa-twitter-square, .fa-file-pdf, .fa-medium, 
     .fa-envelope {
         font-size: 2.2rem !important;
     }
