@@ -20,7 +20,13 @@ header {
     justify-content: flex-end;
     font-size: calc(10px + 2vmin);
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bullDogMindsetLink {
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 #sideNavButton {
@@ -107,11 +113,11 @@ em {
 p {
     line-height: 1.5em;
     padding: 10px 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 a {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: white
 }
 
