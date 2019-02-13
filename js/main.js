@@ -17,6 +17,14 @@ $( () => {
         });
     }
 
+    function activateDarkMode() {
+        $('.darkMode').click(function(e) {
+            $('.bullDogMindsetLink').css("color", "lightblue");
+            $('body').css("background", "black");
+            $('.description, .referral, .headline, .hook, .listItem').css("color", "white");
+        })
+    }
+
     function closeSideNav() {
         $('.closebtn').click(function(e) {
             $('#sideNav').css("width", "0px");
@@ -25,6 +33,7 @@ $( () => {
 
 
     function handleEvents() {
+        activateDarkMode();
         activateSideNav();
         smoothScroll();
         closeSideNav();

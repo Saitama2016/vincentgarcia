@@ -23,6 +23,18 @@ header {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.darkMode {
+    border-radius: 10px;
+    border: none;
+    position: fixed;
+    left: 10px;
+    margin-left: 1rem;
+    height: 1.5rem;
+    background: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
 .bullDogMindsetLink {
     color: blue;
     text-decoration: none;
@@ -45,10 +57,8 @@ header {
 }
 
 .topNav {
-    margin-right: 1rem;
+    margin: 0 auto;
     display: flex;
-    flex: 1 1;
-    justify-content: flex-end;
 }
 
 .headline {
