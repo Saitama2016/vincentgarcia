@@ -41,6 +41,10 @@ header {
     font-weight: 600;
 }
 
+.techStack {
+    font-size: 1.2rem;
+}
+
 #sideNavButton {
     cursor: pointer;
 }
