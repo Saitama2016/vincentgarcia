@@ -17,11 +17,25 @@ $( () => {
         });
     }
 
-    function activateDarkMode() {
-        $('.darkMode').click(function(e) {
+    function activateNightMode() {
+        $('.nightMode').click(function(e) {
             $('.bullDogMindsetLink').css("color", "lightblue");
             $('body').css("background", "black");
-            $('.description, .referral, .headline, .hook, .listItem').css("color", "white");
+            $('.description, .referral, .headline, .hook, .devTitle').css("color", "white");
+            $('.listItem, .techStack').css("color", "white");
+            $('.dayMode').show();
+            $('.nightMode').hide();
+        })
+    }
+
+    function activateDayMode() {
+        $('.dayMode').click(function(e) {
+            $('.bullDogMindsetLink').css("color", "blue");
+            $('body').css("background", "white");
+            $('.description, .referral, .headline, .hook, .devTitle').css("color", "black");
+            $('.listItem, .techStack').css("color", "black");
+            $('.dayMode').hide();
+            $('.nightMode').show();
         })
     }
 
@@ -33,7 +47,8 @@ $( () => {
 
 
     function handleEvents() {
-        activateDarkMode();
+        activateNightMode();
+        activateDayMode();
         activateSideNav();
         smoothScroll();
         closeSideNav();
