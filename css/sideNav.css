@@ -19,6 +19,7 @@
     display: block;
     transition: 0.3s;
     text-align: center;
+    letter-spacing: 0.1rem;
 }
 
 .closebtn {
