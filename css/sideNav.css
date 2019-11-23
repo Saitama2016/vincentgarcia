@@ -48,7 +48,7 @@
 
 @media (max-width: 350px) {
     .closebtn {
-        width: 55% !important;
+        width: 85% !important;
     }
 }
 
@@ -56,7 +56,7 @@
 @media (min-width: 360px) and (max-width: 400px) and (max-height: 650px) {
 #sideNav a {
     padding: 18px 18px 18px 32px;
-    width: 60%;
+    width: 80%;
     font-size: 1.6em;
 }
 
@@ -68,7 +68,7 @@
 @media (min-width: 375px) and (max-width: 400px) and (max-height: 800px) {
     #sideNav a {
         padding: 18px 18px 18px 32px;
-        width: 65%;
+        width: 80%;
     }
 
     #sideNav .closebtn {
@@ -79,13 +79,13 @@
 @media (min-width: 375px) and (max-width: 400px) and (min-height: 800px) {
     #sideNav a {
         padding: 24px 24px 24px 0px;
-        width: 75%;
+        width: 95%;
         font-size: 2em;
     }
 
     #sideNav .closebtn {
         font-size: 1.7rem;
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -105,7 +105,7 @@
     #sideNav a {
         padding: 10px 18px 25px 32px;
         font-size: 2em;
-        width: 70%;
+        width: 80%;
     }
 
     #sideNav .closebtn {
