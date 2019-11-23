@@ -13,48 +13,26 @@
 }
 
 #gitHubLink:focus, .fa-github:hover {
-    -webkit-color: #6e5494;
-    -moz-color: #6e5494;
-    -ms-color: #6e5494;
-    -o-color: #6e5494;
     color: #6e5494;
 }
 
 #blogLink:focus, .fa-blog:hover {
-    -webkit-color: #00AB6B;
-    -moz-color: #00AB6B;
-    -ms-color: #00AB6B;
-    -o-color: #00AB6B;
     color: #00AB6B;
 }
 
 #twitterLink:focus, .fa-twitter-square:hover {
-    -webkit-color: #00acee;
-    -moz-color: #00acee;
-    -ms-color: #00acee;
-    -o-color: #00acee;
     color: #00acee;
 }
 
 #resumeLink:focus, .fa-file-pdf:hover {
-    -webkit-color: #ff0000;
-    -moz-color: #ff0000;
-    -ms-color: #ff0000;
-    -o-color: #ff0000;
     color: #ff0000;
 }
 
 #emailLink:focus, .fa-envelope:hover {
-    -webkit-color: #db3236;
-    -moz-color: #db3236;
-    -ms-color: #db3236;
-    -o-color: #db3236;
     color: #db3236;
 }
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }

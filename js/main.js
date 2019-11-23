@@ -1,7 +1,7 @@
 $( () => {
     function activateSideNav () {
         $('#sideNavButton').click(function(e) {
-            $('#sideNav').css("width", "500px");
+            $('#sideNav').css("width", "100%");
         });
     }
 

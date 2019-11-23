@@ -88,7 +88,7 @@ header {
 
 .sideItem {
     text-transform: uppercase;
-    
+    line-height: 4rem;
 }
 
 main {
@@ -144,15 +144,7 @@ a {
 }
 
 .Container {
-    -webkit-background-color: rgb(255, 255, 255);
-    -moz-background-color: rgb(255, 255, 255);
-    -ms-background-color: rgb(255, 255, 255);
-    -o-background-color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
-    -webkit-width: 60%;
-    -moz-width: 60%;
-    -ms-width: 60%;
-    -o-width: 60%;
     width: 60%;
     box-shadow: 2px 2px 5px 5px;
     border-radius: 10px;
@@ -160,10 +152,6 @@ a {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    -webkit-margin: 2rem auto;
-    -moz-margin: 2rem auto;
-    -ms-margin: 2rem auto;
-    -o-margin: 2rem auto;
     margin: 2rem auto;
 }
 
@@ -186,10 +174,6 @@ a {
 }
 
 .linkToGitHub, .linkToDemo {
-    -webkit-background-color: #f8f8ff;
-    -moz-background-color: #f8f8ff;
-    -ms-background-color: #f8f8ff;
-    -o-background-color: #f8f8ff;
     background-color: #f8f8ff;
     border-radius: 10px;
     border: #000;
