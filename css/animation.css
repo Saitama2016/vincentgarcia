@@ -20,7 +20,7 @@
     color: #6e5494;
 }
 
-#mediumLink:focus, .fa-medium:hover {
+#blogLink:focus, .fa-blog:hover {
     -webkit-color: #00AB6B;
     -moz-color: #00AB6B;
     -ms-color: #00AB6B;
