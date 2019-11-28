@@ -20,6 +20,7 @@ $( () => {
     function activateNightMode() {
         $('.nightMode').click(function(e) {
             $('.bullDogMindsetLink').css("color", "lightblue");
+            $('.honestGraduateLink').css("color", "lightblue");
             $('body').css("background", "black");
             $('.description, .referral, .headline, .hook, .devTitle').css("color", "white");
             $('.listItem, .techStack').css("color", "white");

@@ -174,15 +174,13 @@ a {
 }
 
 .linkToGitHub, .linkToDemo {
-    background-color: #f8f8ff;
-    border-radius: 10px;
-    border: #000;
+    background-color: #27c7e0;
+    border-radius: 50px;
     color: black;
     text-decoration: none;
     font-weight: 600;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px #6e2f96;
     padding: .6rem;
-    margin: 0 .7rem;
+    margin: 0rem .7rem;
 }
 
 .Pic {
