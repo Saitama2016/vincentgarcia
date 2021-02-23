@@ -1,224 +1,606 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Portfolio Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="Portfolio of Vincent James Garcia">
-    <link rel="canonical" href="https://www.vincentjgarcia.com/" />
-    <link rel="shortcut icon" href="assets/codeIcon.ico">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/sideNav.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/animation.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/mediaQueries.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/110f3fd20c.js" crossorigin="anonymous"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Name of your web site">
+<meta name="author" content="Marketify">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Vincent Garcia | Home</title>
+
+<!-- STYLES -->
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,700,700i,800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="css/plugins.css" />
+<link rel="stylesheet" type="text/css" href="css/colors.css" />
+<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+<!-- /STYLES -->
+
 </head>
-<body>
-    <header>
-        <button class="nightMode">Night Mode</button>
-        <button class="dayMode">Day Mode</button>
-        <span id="sideNavButton"><i class="fas fa-bars"></i></span>
-        <nav class="topNav">
-            <a href="#About" class="navItem">About</a>
-            <a href="#Projects" class="navItem">Projects</a>
-            <a href="#Referrals" class="navItem">Referrals</a>
-            <a href="#Contact" class="navItem">Contact</a>
-      </nav>
-      <nav id="sideNav">
-          <a aria-label="Close-Side" href="javascript:void(0)" class="closebtn"><i class="far fa-window-close fa-2x"></i></a>
-          <a aria-label="Go-To-About" href="#About" class="sideItem">About</a>
-          <a aria-label="Go-To-Projects" href="#Projects" class="sideItem">Projects</a>
-          <a aria-label="Go-To-Referrals" href="#Referrals" class="sideItem">Referrals</a>
-          <a aria-label="Go-To-Contact" href="#Contact" class="sideItem">Contact</a>
-      </nav>
-    </header>
-    <main>
-        <div id="About">
-            <picture>
-                <source srcset="assets/Blue-tie-Blue-shirt.jp2" type="image/jp2">
-                <source srcset="assets/Blue-tie-Blue-shirt.webp" type="image/webp">
-                <img class="profilePic" src="assets/Blue-tie-Blue-shirt.jpg" alt="Vincent Garcia's Headshot">
-            </picture>
-            <div class="Bio">
-                <h2 class="headline">About Me</h2>
-                <p class="description">I am a Software Engineer with an interest in Blockchains, Machine Learning, and Virtual Reality. 
-                    I began my software engineering journey by developing web applications in React and Node.js for startups.
-                    In addition to providing web development services, I contributed quality assurance through scripting and currently working towards Automation Testing using Python.  
-                    When I am not coding, I am applying the philosophical principles of the <a class="bullDogMindsetLink" href="https://bulldogmindset.com/" target="_blank" rel="noreferrer">Bulldog Mindset</a> by 
-                    investing in my own education to acquire practical knowledge in Emerging Technologies. I achieve this task by collaborating on open source projects to expand my horizons and 
-                    share my experience in my personal blog, <a class="honestGraduateLink" href="https://honestgraduate.com/" target="_blank" rel="noreferrer"> Honest Graduate</a>.
-                    I thrive in an environment that embraces internal mobility and autonomy to contribute my best work and grow within my team.
-                </p>
-                <h3 class="devTitle">FRONT-END:</h3>
-                <p class="techStack">
-                    <i class="devicon-javascript-plain colored"></i>JavaScript | 
-                    <i class="devicon-react-original colored"></i>React/Redux | 
-                    <i class="devicon-jquery-plain colored"></i>jQuery | 
-                    <i class="devicon-html5-plain colored"></i>HTML5 |
-                    <i class="devicon-css3-plain colored"></i>CSS 
-                </p>
-                <h3 class="devTitle">BACK-END:</h3>
-                <p class="techStack">
-                    <i class="devicon-nodejs-plain colored"></i>Node.js | 
-                    <i class="devicon-express-original colored"></i>Express.js | 
-                    <i class="devicon-mongodb-plain colored"></i>MongoDB | 
-                    <i class="devicon-mysql-plain colored"></i>MySQL | 
-                    <i class="devicon-mocha-plain colored"></i>Mocha/Chai | 
-                    <i class="devicon-travis-plain colored"></i>TravisCI | 
-                    <i class="devicon-heroku-plain colored"></i>Heroku
-                </p>
-                <h3 class="devTitle">DEV TOOLS:</h3>
-                <p class="techStack">
-                    <i class="devicon-git-plain colored"></i>Git | 
-                    <i class="devicon-github-plain colored"></i>GitHub | 
-                    <i class="devicon-bitbucket-plain colored"></i>BitBucket | 
-                    <i class="devicon-trello-plain colored"></i>Trello | 
-                    <i class="devicon-visualstudio-plain colored"></i>Visual Studio | 
-                    <i class="devicon-chrome-plain colored"></i>Chrome Dev | 
-                    <i class="devicon-docker-plain colored"></i>Docker | 
-                    <i class="devicon-webpack-plain colored"></i>Webpack
-                </p>
-                <h3 class="devTitle">FURTHER INTERESTS:</h3>
-                <p class="techStack">
-                    <i class="devicon-python-plain colored"></i>Python | 
-                    <i class="devicon-postgresql-plain colored"></i>PostgreSQL | 
-                    <i class="devicon-android-plain colored"></i>Android | 
-                    <i class="devicon-debian-plain colored"></i>Debian Linux
 
-                </p>
-            </div>
-        </div>
-        
-        <div id="Projects">
-        <h2 class="headline">Projects</h2>
-            <div class="projectsList">
-                <div class="NoshwareSite Container">
-                    <h3>Noshware Site</h3>
-                    <picture>
-                        <source srcset="assets/NoshwareSitePreview.jp2" type="image/jp2">
-                        <source srcset="assets/NoshwareSitePreview.webp" type="image/webp">
-                        <img class="landingPage" src="assets/NoshwareSitePreview.PNG" alt="Noshware Site App" />
-                    </picture>
-                    <p class="descApp"><b>Developing Noshware Site to allow clients to submit inquiries for customized smart-vending machines.
-                        Noshware is a software brand of NeighborNosh Inc., a smart-vending machine company aimed to use touch-screen mechanics of the Android and iOS sytems to 
-                        provide consumers 24/7 conventional food and beverages. Clients may rent a Noshware machine to vend any gifts or products within the infrastructure of the machine.
-                    </b></p>
-                    <p class="listofTech"><b class="break">Tech Stack:</b> 
-                        <i class="devicon-react-original colored"></i>React | 
-                        <i class="devicon-nodejs-plain colored"></i>Node.js | 
-                        <i class="devicon-css3-plain colored"></i>CSS | 
-                        <i class="devicon-amazonwebservices-original colored"></i>Amazon S3
-                    </p>
-                </div>
-            
-                <div class="hexClothes Container">
-                    <h3>HexClothes (in Production)</h3>
-                    <picture>
-                        <source srcset="assets/HexClothesPreview.jp2" type="image/jp2">
-                        <source srcset="assets/HexClothesPreview.webp" type="image/webp">
-                        <img class="landingPage" src="assets/HexClothesPreview.PNG" alt="Wardrobe Model of HexClothes App"/>
-                    </picture>
-                    <p class="descApp">
-                        <b>HexClothes is a React Full-Stack app to find complimentary shirt colors based on their skintone.</b>
-                    </p>
-                    <p class="listofTech"><b class="break">Tech Stack:</b> 
-                        <i class="devicon-react-original colored"></i>React/Redux | 
-                        <i class="devicon-nodejs-plain colored"></i>Node.js | 
-                        <i class="devicon-express-original colored"></i>Express.js | 
-                        <i class="devicon-mongodb-plain colored"></i>MongoDB | 
-                        <i class="devicon-css3-plain colored"></i>CSS | 
-                        <i class="devicon-heroku-plain colored"></i>Heroku
-                    </p>
-                    <a class="linkToGitHub" href="https://github.com/Saitama2016/hex-clothes" target="_blank" rel="noreferrer">Client</a>
-                    <a class="linkToGitHub" href="https://github.com/Saitama2016/hex-clothes-api" target="_blank" rel="noreferrer">Server</a>
-                </div>
+<body> <!-- If you want DARK MODE just add class 'dark' to body. For Example: <body class="dark"> -->
+	
+	<!-- PRELOADER -->
+	<div class="arlo_tm_preloader">
+		<div class="spinner_wrap">
+			<div class="spinner"></div>
+		</div>
+	</div>
+	<!-- /PRELOADER -->
 
-                <div class="captainsLog Container">
-                    <h3>Captains Log</h3>
-                    <picture>
-                        <source srcset="assets/CaptainsLogPreview.jp2" type="image/jp2">
-                        <source srcset="assets/CaptainsLogPreview.webp" type="image/webp">
-                        <img class="landingPage" src="assets/CaptainsLogPreview.PNG" alt="Landing Page of Captains Log App"/>
-                    </picture>
-                    <p class="descApp"><b>Captains Log is a Node app to allow users to journal events in their vacations.</b></p>
-                    <p class="listofTech"><b class="break">Tech Stack:</b> 
-                        <i class="devicon-nodejs-plain colored"></i>Node.js | 
-                        <i class="devicon-express-original colored"></i>Express.js | 
-                        <i class="devicon-mongodb-plain colored"></i>MongoDB | 
-                        <i class="devicon-mocha-plain colored"></i>Mocha/Chai | 
-                        <i class="devicon-travis-plain colored"></i>TravisCI | 
-                        <i class="devicon-css3-plain colored"></i>CSS | 
-                        <i class="devicon-html5-plain colored"></i>HTML5 | 
-                        <i class="devicon-heroku-plain colored"></i>Heroku
-                    </p>
-                    <a class="linkToGitHub" href="https://github.com/Saitama2016/captainsLog" target="_blank" rel="noreferrer">GitHub</a>
-                    <a class="linkToDemo" href="https://captains-log-2018.herokuapp.com/" target="_blank" rel="noreferrer">Demo</a>
-                </div>
-          
-                <div class="BeTenacious Container">
-                    <h3>BeTenacious</h3>
-                    <picture>
-                        <source srcset="assets/BeTenaciousPreview.jp2" type="image/jp2">
-                        <source srcset="assets/BeTenaciousPreview.webp" type="image/webp">
-                        <img class="landingPage" src="assets/BeTenaciousPreview.PNG" alt="Landing Page of BeTenacious App" />
-                    </picture>
-                    <p class="descApp"><b>BeTenacious is an interchangeable app where users maintain Fitness and Nutrition goals by researching workout tutorials, fitness groups, restaurants, and recipes.</b></p>
-                    <p class="listofTech"><b class="break">Tech Stack:</b> 
-                        <i class="devicon-jquery-plain colored"></i>jQuery | 
-                        <i class="devicon-css3-plain colored"></i>CSS | 
-                        <i class="devicon-html5-plain colored"></i>HTML5 | 
-                        Wger Workout API | 
-                        YouTube Video Search API 
-                    </p>
-                    <a class="linkToGitHub" href="https://github.com/Saitama2016/BeTenacious" target="_blank" rel="noreferrer">GitHub</a>
-                    <a class="linkToDemo" href="https://saitama2016.github.io/BeTenacious/" target="_blank" rel="noreferrer">Demo</a>
-                </div>
-            </div>
-        </div>
+	
+<!-- WRAPPER ALL -->
+<div class="arlo_tm_all_wrap" data-magic-cursor="" data-color="crimson">
+	
+	<!-- "" is default option -->
+	
+	<!-- MAGIC CURSOR VALUES: "", hide -->
+	<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
+	
+	<!-- MODALBOX NEWS -->
+	<div class="arlo_tm_modalbox_news">
+		<div class="box_inner">
+			<div class="close">
+				<a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
+			</div>
+			<div class="description_wrap scrollable">
+			</div>
+		</div>
+	</div>
+	<!-- /MODALBOX NEWS -->
+	
+	<!-- MOBILE MENU -->
+	<div class="arlo_tm_mobile_menu">
+		<div class="mobile_menu_inner">
+			<div class="container">
+				<div class="mobile_in">
+					<!-- <div class="logo">
+						<a href="#"><img src="img/logo/mobile/dark.png" alt="" /></a>
+					</div> -->
+					<div class="my_trigger">
+						<div class="hamburger hamburger--collapse-r">
+							<div class="hamburger-box">
+								<div class="hamburger-inner"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dropdown">
+			<div class="container">
+				<div class="dropdown_inner">
+					<ul class="anchor_nav">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<!-- <li><a href="#portfolio">Portfolio</a></li> -->
+						<!-- <li><a href="#news">Blog</a></li> -->
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /MOBILE MENU -->
+	
+	<!-- LEFTPART -->
+	<div class="arlo_tm_leftpart">
+		<div class="inner">
+			<!-- <div class="logo">
+				<a href="#"><img src="img/logo/sidebar/light.png" alt="" /></a>
+			</div> -->
+			<div class="menu scrollable">
+				<ul class="anchor_nav">
+					<li class="current"><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<!-- <li><a href="#portfolio">Portfolio</a></li> -->
+					<!-- <li><a href="#news">Blog</a></li> -->
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			<!-- <div class="bottom">
+				<div class="social">
+					<ul>
+						<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
+						<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
+						<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" /></a></li>
+						<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" /></a></li>
+						<li><a href="#"><img class="svg" src="img/svg/social/tik-tok.svg" alt="" /></a></li>
+					</ul>
+				</div>
+			</div> -->
+		</div>
+	</div>
+	<!-- /LEFTPART -->
+	
+	<!-- RIGHTPART -->
+	<div class="arlo_tm_rightpart">
+	
+		<!-- HERO -->
+		<div class="arlo_tm_hero" id="home">
+			<div class="background">
+				<div class="image" data-img-url="img/slider/Matrix.jpg"></div>
+				<div class="overlay"></div>
+			</div>
+			<div class="content">
+				<div class="image_wrap">
+					<div class="main" data-img-url="img/about/Professional2020.jpg"></div>
+				</div>
+				<div class="name_holder">
+					<h3>Vincent <span>Garcia</span></h3>
+				</div>
+				<div class="text_typing">
+					<p>I'm a <span class="arlo_tm_animation_text_word"></span></p>
+				</div>
+			</div>
+			<div class="arlo_tm_arrow_wrap bounce anchor">
+				<a href="#about"><i class="xcon-angle-double-down"></i></a>
+			</div>
+		</div>
+		<!-- /HERO -->
 
-        <div id="Referrals">
-        <h2 class="headline">Referrals</h2>
-            <div class="listOfRefs">
-              <p class="referral">"Vincent is a great asset! Fast-learner, reliable, and eager to learn!"
-                  <span><em>- Michael Rosenthal, Founder/CEO at NeighborNosh Inc.</em></span>
-              </p>
-              <p class="referral">"Vincent was a student in my class... he was a hard worker, very creative, 
-                  very punctual, and quite thoughtful in his contributions to class. 
-                  If his dedication to the course material and classwork are any 
-                  indication as to the effort he'd put in for a job, 
-                  you're in very good hands selecting him."
-                  <span><em>- Kate Pletcher, MBA, Founder/CEO at Treehouse Partners</em></span>
-                </p>
-              <p class="referral">"I recently hired Vincent as a freelance Full-Stack Software Developer 
-                  for a project, and he communicated clearly, asked clarifying questions and wrote clean code in React.js and Node.js. 
-                  He expressed interest in learning a new technology, a static site generator, 
-                  and incorporated my feedback on code quality to his own personal projects."
-                  <span><em>- Kristen S. Coates, Lawyer, Full-stack Web Developer, UX Researcher, and Founder at BitSlopes</em></span>
-                </p>
-            </div>
-        </div>
+		<!-- ABOUT -->
+		<div class="arlo_tm_about" id="about">
+			<div class="container">
+				<div class="arlo_tm_main_title">
+					<span>Biography</span>
+					<h3>About Me</h3>
+				</div>
+				<div class="about_inner">
+					<div class="left">
+						<div class="about_image_wrap parallax" data-relative-input="true">
+							<div class="image layer" data-depth="0.1">
+								<img src="img/ratios/550x650.jpg" alt="" />
+								<div class="inner" data-img-url="img/about/Professional2020.jpg"></div>
+							</div>
+							<div class="border layer" data-depth="0.2">
+								<img src="img/ratios/550x650.jpg" alt="" />
+								<div class="inner"></div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="about_title">
+							<h3>I'm Vincent Garcia: <span class="arlo_tm_animation_text_word"></span></h3>
+						</div>
+						<div class="text">
+							<p>Hi! My name is <span>Vincent Garcia</span>. I'm a Software Developer. I'm very enthusiastic about learning and don't shy away from challenges. I offer 3 years experience as a professional Software Developer, I have acquired the skills and knowledge in Web Technologies, Robotics Process Automation, Database Management, and Computer Networking to make your project a success.</p>
+						</div>
+						<div class="about_short_contact_wrap">
+							<ul>
+								<!-- <li>
+									<img class="svg" src="img/svg/gift.svg" alt="" />
+									<span><label>Birthday:</label> 01.07.1990</span>
+								</li> -->
+								<!-- <li>
+									<img class="svg" src="img/svg/calendar-4.svg" alt="" />
+									<span><label>Age:</label> 30</span>
+								</li>
+								<li>
+									<img class="svg" src="img/svg/location-1.svg" alt="" />
+									<span><label>Location:</label> <a class="href_location" href="#">44 Place, Plano, USA</a></span>
+								</li> -->
+								<li>
+									<img class="svg" src="img/svg/book.svg" alt="" />
+									<span><label>Interests:</label> Working Out, Reading, Artifical Intelligence</span>
+								</li>
+								<li>
+									<img class="svg" src="img/svg/study-5.svg" alt="" />
+									<span><label>Study:</label> <a class="href_location" href="#"> University of California Los Angeles</a></span>
+								</li>
+								<li>
+									<img class="svg" src="img/svg/degree-1.svg" alt="" />
+									<span><label>Degree:</label> Bachelors</span>
+								</li>	
+								<li>
+									<img class="svg" src="img/svg/message-3.svg" alt="" />
+									<span><label>Mail:</label> <a href="mailto:example@gmail.com">garciajvincent&#64;gmail.com</a></span>
+								</li>
+								<!-- <li>
+									<img class="svg" src="img/svg/call-2.svg" alt="" />
+									<span><label>Phone:</label> <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a></span>
+								</li> -->
+							</ul>
+						</div>
+						<div class="arlo_tm_button">
+							<a href="assets/vincentJGarciaResume.pdf" download><span>Download CV</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /ABOUT -->
 
-        <div id="Contact">
-            <h2 class="headline">Contact Me</h2>
-            <p class="hook">
-                Feel free to follow me on LinkedIn and/or GitHub.
-                Checkout my personal blog. Download my resume. Contact me through email for business inquiries.
-            </p>
-            <div class="linkedList">
-                <a aria-label="LinkedIn" id="linkedinLink" class="listItem" href="https://www.linkedin.com/in/vincent-garcia-0625/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin fa-3x"></i></a>
-                <a aria-label="GitHub" id="gitHubLink" class="listItem" href="https://github.com/Saitama2016" target="_blank" rel="noreferrer"><i class="fab fa-github fa-3x"></i></a>
-                <a aria-label="Blog" id="blogLink" class="listItem" href="https://honestgraduate.com/" target="_blank" rel="noreferrer"><i class="fas fa-blog fa-3x"></i></a>
-                <a aria-label="Resume" id="resumeLink" class="listItem" href="assets/vincentJGarciaResume.pdf" target="_blank" rel="noreferrer"><i class="fas fa-file-pdf fa-3x"></i></a>
-                <a aria-label="Email" id="emailLink" class="listItem" href="mailto:garciajvincent@gmail.com" rel="noreferrer"><i class="fas fa-envelope fa-3x"></i></a>
-            </div>
-        </div>
-    </main>
+		<!-- SERVICES -->
+		<div class="arlo_tm_section" id="services">
+			<div class="arlo_tm_services">
+				<div class="container">
+					<div class="arlo_tm_main_title">
+						<span>Services</span>
+						<h3>Quality Services</h3>
+					</div>
+					<div class="service_inner">
+						<ul>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/Robot.svg" alt="Picture of a Robot" />
+									<h3>Robotics Process Automation</h3>
+									<p>Certified UiPath RPA Associate, capable of developing automation solutions in UiPath platform.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/code.svg" alt="SVG of a computer if close tag" />
+									<h3>Web Development</h3>
+									<p>Experience working with APIs and improving existing websites and applications.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/ftbars.svg" alt="An SVG of a generic bar chart" />
+									<h3>Data Analytics</h3>
+									<p>Able to create dashboards and analystics using Power BI and Python packages.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/coder.svg" alt="person coding in a computer" />
+									<h3>Technical Support</h3>
+									<p>Quickly learn and improve large-scale systems to support business analysts, management, and application owners.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/user_notify.svg" alt="User with a notification bell" />
+									<h3>User Experience</h3>
+									<p>Facilitate consumer insights and automate customer support by developing or improving chatbots.</p>
+								</div>
+							</li>
+							<li>
+								<div class="inner">
+									<img class="svg" src="img/svg/Cloud.svg" alt="An image of a cloud" />
+									<h3>Cloud Integrations</h3>
+									<p>Manage SQL Databases for large-scale data migration to Cloud platforms including AWS.</p>
+								</div>
+							</li>
+						</ul>
+						<div class="lets_work">
+							<p>Are you interested in working with me? <a href="#contact"> Let's started now</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /SERVICES -->
+
+		<!-- PORTFOLIO -->
+		<!-- <div class="arlo_tm_section" id="portfolio">
+			<div class="arlo_tm_portfolio">
+				<div class="container">
+					<div class="arlo_tm_main_title">
+						<span>Portfolio</span>
+						<h3>Featured Works</h3>
+					</div>
+					<div class="portfolio_inner">
+						<div class="arlo_tm_portfolio_titles"></div>
+						<div class="portfolio_filter">
+							<ul>
+								<li><a href="#" class="current" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".design">Design</a></li>
+								<li><a href="#" data-filter=".branding">Branding</a></li>
+								<li><a href="#" data-filter=".photography">Photography</a></li>
+							</ul>
+						</div>
+						<div class="portfolio_list">
+							<ul class="gallery_zoom">
+								<li class="photography">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Sweet Fruit" data-category="Photography">
+											<a class="zoom" href="img/portfolio/1.jpg">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/1.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="branding">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Good Present" data-category="Branding">
+											<a class="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/2.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="design">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Ice Cream" data-category="Photography">
+											<a class="zoom" href="img/portfolio/3.jpg">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/3.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="photography">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Black Coffee" data-category="Photography">
+											<a class="zoom" href="img/portfolio/4.jpg">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/4.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="branding">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Blue Lemon" data-category="Branding">
+											<a class="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/5.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+								<li class="design">
+									<div class="inner">
+										<div class="entry arlo_tm_portfolio_animation_wrap" data-title="Sweet Cherry" data-category="Photography">
+											<a class="zoom" href="img/portfolio/6.jpg">
+												<img src="img/ratios/ratio-1-1.jpg" alt="" />
+												<div class="main_image" data-img-url="img/portfolio/6.jpg"></div>
+											</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- /PORTFOLIO -->
+
+		<!-- COUNTER -->
+		<!-- <div class="arlo_tm_section">
+			<div class="arlo_tm_counter_section">
+				<div class="container">
+					<div class="counter_inner">
+						<ul>
+							<li>
+								<div class="list_inner">
+									<h3 class="arlo_tm_counter" data-from="0" data-to="555" data-speed="2000">0</h3>
+									<span>Happy Clients</span>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<h3 class="arlo_tm_counter" data-from="0" data-to="222" data-speed="2000">0</h3>
+									<span>Projects Finished</span>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<h3 class="arlo_tm_counter" data-from="0" data-to="444" data-speed="2000">0</h3>
+									<span>Awards Won</span>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<h3 class="arlo_tm_counter" data-from="0" data-to="777" data-speed="2000">0</h3>
+									<span>Drinked Pepsi</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- /COUNTER -->
+
+		<!-- NEWS -->
+		<!-- <div class="arlo_tm_section" id="news">
+			<div class="arlo_tm_news">
+				<div class="container">
+					<div class="arlo_tm_main_title">
+						<span>Blog</span>
+						<h3>Blog</h3>
+					</div>
+					<div class="news_list">
+						<ul>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/ratios/ratio-4-3.jpg" alt="" />
+										<div class="main" data-img-url="img/news/1.jpg"></div>
+										<a class="arlo_tm_full_link" href="#"></a>
+									</div>
+									<div class="details">
+										<h3 class="title"><a href="#">Developers watch out for these burnout symptoms</a></h3>
+										<p class="date">By <a href="#">Alex Watson</a> <span>20 March 2020</span></p>
+									</div>
+									<div class="description">
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<blockquote>As Vintage decided to have a closer look into fast-paced New York web design realm in person. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</blockquote>
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<div class="share">
+											<span>Share:</span>
+											<ul class="social">
+												<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" ></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/ratios/ratio-4-3.jpg" alt="" />
+										<div class="main" data-img-url="img/news/2.jpg"></div>
+										<a class="arlo_tm_full_link" href="#"></a>
+									</div>
+									<div class="details">
+										<h3 class="title"><a href="#">How to be appreciated for your hard work as a developer</a></h3>
+										<p class="date">By <a href="#">Brook Kennedy</a> <span>22 May 2020</span></p>
+									</div>
+									<div class="description">
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<blockquote>As Vintage decided to have a closer look into fast-paced New York web design realm in person. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</blockquote>
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<div class="share">
+											<span>Share:</span>
+											<ul class="social">
+												<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" ></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list_inner">
+									<div class="image">
+										<img src="img/ratios/ratio-4-3.jpg" alt="" />
+										<div class="main" data-img-url="img/news/3.jpg"></div>
+										<a class="arlo_tm_full_link" href="#"></a>
+									</div>
+									<div class="details">
+										<h3 class="title"><a href="#">How designers and developers can collaborate better</a></h3>
+										<p class="date">By <a href="#">Paola Atkins</a> <span>05 April 2020</span></p>
+									</div>
+									<div class="description">
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<blockquote>As Vintage decided to have a closer look into fast-paced New York web design realm in person. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</blockquote>
+										<p>As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. We encounter professionals with careers to covet and lives to write books about. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities. As Vintage decided to have a closer look into fast-paced New York web design realm in person, we get to acquaint with most diverse and exceptionally captivating personalities.</p>
+										<div class="share">
+											<span>Share:</span>
+											<ul class="social">
+												<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" ></a></li>
+												<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" ></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- /NEWS -->
+
+		<!-- CONTACT -->
+		<div class="arlo_tm_section" id="contact">
+			<div class="arlo_tm_contact">
+				<div class="container">
+					<div class="contact_inner">
+						<div class="arlo_tm_main_title">
+							<span>Contact</span>
+							<h3>Get in Touch</h3>
+						</div>
+						<div class="desc">
+							<p>Please fill out the form on this section to contact with me.</p>
+						</div>
+						<div class="wrapper">
+							<div class="left">
+								<div class="fields">
+									<form action="/" method="post" class="contact_form" id="contact_form">
+										<div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+										<div class="empty_notice"><span>Please Fill Required Fields</span></div>
+										<div class="first">
+											<ul>
+												<li>
+													<input id="name" type="text" placeholder="Name" autocomplete="off">
+												</li>
+												<li>
+													<input id="email" type="text" placeholder="Email" autocomplete="off">
+												</li>
+											</ul>
+										</div>
+										<div class="last">
+											<textarea id="message" placeholder="Message"></textarea>
+										</div>
+										<div class="arlo_tm_button" data-color="dark">
+											<a id="send_message" href="#">Send Message</a>
+										</div>
+
+										<!-- If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  -->
+
+									</form>
+								</div>
+							</div>
+							<!-- <div class="right">
+								<div class="map_wrap">
+									<div class="map" id="ieatmaps"></div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /CONTACT -->
+
+		<!-- COPYRIGHT -->
+		<div class="arlo_tm_section">
+			<div class="arlo_tm_copyright">
+				<div class="container">
+					<div class="inner">
+						<div class="copy">
+							<p>&copy; Copyright 2019-2021. All rights are reserved.</p>
+						</div>
+						<div class="social">
+							<ul>
+								<li><a href="#"><img class="svg" src="img/svg/social/facebook.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/twitter.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/behance.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/dribbble.svg" alt="" /></a></li>
+								<li><a href="#"><img class="svg" src="img/svg/social/tik-tok.svg" alt="" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /COPYRIGHT -->
+	</div>
+	
+	<!-- CURSOR -->
+	<div class="mouse-cursor cursor-outer"></div>
+	<div class="mouse-cursor cursor-inner"></div>
+	<!-- /CURSOR -->
+	
+</div>
+<!-- / WRAPPER ALL -->
+	
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
+<!-- /SCRIPTS -->
+
 </body>
 </html>
